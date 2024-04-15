@@ -43,23 +43,23 @@ public class Demo {
 	public static void main(String[] args) {
 		Person p1 = new Person("Gun", 19);
 		Person p2 = new Person("Ria", 18);
-//		p1.display();
-//		p2.display();
+		p1.display();
+		p2.display();
 		
 		Dog d1 = new Dog("Bruno", "pug");
 		Dog d2 = new Dog("Oscar", "poodle");
 		
-//		d1.display();
-//		d2.display();
+		d1.display();
+		d2.display();
 		
 		d1.setName("Blue");
 		d1.setBreed("Husky");
 		d2.setName("Tommy");
 		d2.setBreed("lebra");
 		
-//		System.out.println("Modified values are : ");
-//		d1.display();
-//		d2.display();
+		System.out.println("Modified values are : ");
+		d1.display();
+		d2.display();
 		
 		Scanner sc = new Scanner(System.in);
 		
